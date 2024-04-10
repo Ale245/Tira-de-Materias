@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Tira de Materias</title>
+        <meta charset="UTF-8">
+        <meta name="vleport" content="width=device-width, initial-scaled=1.0">
+        <link rel="stylesheet" type="text/css" href="./css/Calf.css">
+        <script type="text/javascript" src="./js/Cali.js"></script>
+        </head>
+
+    <body>
+<h1>Formulario de Calificaciones</h1>
+<form>
+    <label>Matricula</label><br>
+    <input type="text" id="matricula" style="width: 300px;">
+    <br><br>
+    <label>Nombre</label><br>
+    <input type="text" id="nombre" style="width: 300px;">
+    <br><br>
+    <label>Materia1</label><br>
+    <input type="text" id="materia1" style="width: 300px;">
+    <br><br>
+    <label>Calificacion</label><br>
+    <input type="text" id="calif1" style="width: 300px;">
+    <br><br>
+    <label>Materia2</label><br>
+    <input type="text" id="materia2" style="width: 300px;">
+    <br><br>
+    <label>Calificacion</label><br>
+    <input type="text" id="calif2" style="width: 300px;">
+    <br><br>
+    <label>Materia3</label><br>
+    <input type="text" id="materia3" style="width: 300px;">
+    <br><br>
+    <label>Calificacion</label><br>
+    <input type="text" id="calif3" style="width: 300px;">
+    <br><br>
+    <input type="button" value="Enviar" onclick="promedio()" style="background-color: rgb(51, 136, 151); width: 300px; height: 35px;">
+    <br>
+    <h2>Resultados</h2>
+</form>
+<table border="1">
+    <tbody>
+        
+        <tr>
+            <br><br><br><br><br><br><br><br><br><br><br><br>
+            <td style="background-color: rgb(177, 37, 165); color: white;">matricula</td>
+            <td style="background-color: rgb(177, 37, 165); color: white;">nombre</td>
+            <td style="background-color: rgb(177, 37, 165); color: white;">materia</td>
+            <td style="background-color: rgb(177, 37, 165); color: white;">calificacion</td>
+        </tr>
+    </tbody>
+    <tbody>
+        <tr>
+            <td id="matri1"></td>
+            <td id="nom1"></td>
+            <td id="mate1"></td>
+            <td id="cali1"></td>
+        </tr>
+    </tbody>
+    <tbody>
+        <tr>
+            <td id="matri2"></td>
+            <td id="nom2"></td>
+            <td id="mate2"></td>
+            <td id="cali2"></td>
+        </tr>
+    </tbody>
+    <tbody>
+        <tr>
+            <td id="matri3"></td>
+            <td id="nom3"></td>
+            <td id="mate3"></td>
+            <td id="cali3"></td>
+        </tr>
+    </tbody>
+    <tbody>
+        <tr>
+            <td>promedio</td>
+            <td></td>
+            <td></td>
+            <td id="promedio"></td>
+        </tr>
+    </tbody>
+</table>
+</body>
+        </html>
